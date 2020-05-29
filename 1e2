@@ -1,0 +1,54 @@
+
+
+let receita ={
+    titulo: "bolo de chocolate",
+    porcao: 2,
+    ingredientes: ["cacau", "leite", "manteiga"]
+}
+
+console.log(receita.Ingredientes[0]);
+console.log(receita.Ingredientes[1]);
+console.log(receita.Ingredientes[2]);
+
+
+let livros = [ 
+    {
+        titulo: "Por lugares inciveis",
+        autor: " Jennifer Nivem",
+        livrolido: false,
+    },
+
+    {
+        titulo: "O cemiterio",
+        autor: "Stephen King",
+        livrolido: thrue,
+    },
+
+    {
+        titulo: "A espera de um milagre",
+        autor: "Stephen King",
+        livrolido: true,
+    },
+
+    {
+        titulo: "It a Coisa",
+        autor: "Stephen King",
+        livrolido: true,
+    },
+        
+}];
+
+for (i=0; i<livro.length; i++){
+    if(livro[i].lido){
+        console.log(livro[i].title);
+        console.log(livro[i].autor);
+        console.log("Livro lido!");
+
+    }else{
+        console.log(livro[i].title);
+        console.log(livro[i].autor);
+        console.log("Livro não lido!");
+    }
+    
+}
+
